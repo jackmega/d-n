@@ -1,0 +1,41 @@
+.nav-bar {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: rgba(0, 0, 0, .2);
+	border-radius: 10px;
+	-webkit-transition: all .5s .2s;
+	-moz-transition: all .5s .2s;
+	-o-transition: all .5s .2s;
+}
+.nav-bar:hover {
+	background-color: rgba(0, 0, 0, .3);
+}
+.nav-bar li {
+	float: left;
+}
+.nav-bar li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 1em;
+	text-decoration: none;
+	margin: 0 .5em 0 0;
+	font-size: 1.2em;
+	-webkit-transition: all .5s .2s;
+	-moz-transition: all .5s .2s;
+	-o-transition: all .5s .2s;
+}
+.nav-bar li a:hover {
+	background-color: rgba(0, 0, 0, .3);
+	-webkit-transition: all .5s .2s;
+	-moz-transition: all .5s .2s;
+	-o-transition: all .5s .2s;
+}
+
+
+.space-pls {
+	height: 1000px;
+	background-color: rgba(0, 0, 0, .5);
+}
